@@ -13,6 +13,7 @@ if UsDest == -1:
     print("Wrong Value")
     
 #------------------------------------------------------
+# FUCTIONS
 def add(*values):
     sum_ = 0
     for i in values:
