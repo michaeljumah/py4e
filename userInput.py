@@ -14,10 +14,10 @@ if UsDest == -1:
     
 #------------------------------------------------------
 def add(*args):
-    sum = 0
+    sum_ = 0
     for i in args:
-        sum += i
-    return sum
+        sum_ += i
+    return sum_
     
-out = add(1,2)
+out = add(1,2,3,4,5,6,7,8,9)
 print("soulution: ", out)
