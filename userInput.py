@@ -13,3 +13,5 @@ if UsDest == -1:
     print("Wrong Value")
     
 #------------------------------------------------------
+big = sorted(max("hekko zorld"))
+print (type(big))
