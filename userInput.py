@@ -13,5 +13,11 @@ if UsDest == -1:
     print("Wrong Value")
     
 #------------------------------------------------------
-big = sorted(max("hekko zorld"))
-print (type(big))
+def add(*args):
+    sum = 0
+    for i in args:
+        sum += i
+    return sum
+    
+out = add(1,2)
+print("soulution: ", out)
