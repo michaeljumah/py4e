@@ -8,3 +8,6 @@
 [🔗 Course Website:](https://www.py4e.com/)
 
 ### Introduction
+- variable declaration and initialization
+- Try/except error handler
+- Loops
