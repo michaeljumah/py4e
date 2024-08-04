@@ -10,4 +10,6 @@
 ### Introduction
 - variable declaration and initialization
 - Try/except error handler
+
+### Functions
 - Loops
