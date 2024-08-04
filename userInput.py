@@ -13,9 +13,9 @@ if UsDest == -1:
     print("Wrong Value")
     
 #------------------------------------------------------
-def add(*args):
+def add(*values):
     sum_ = 0
-    for i in args:
+    for i in values:
         sum_ += i
     return sum_
     
