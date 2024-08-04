@@ -8,6 +8,7 @@ except:
     UsDest = -1
     
 print("Your destination is: ", UsDest)
+
 if UsDest == -1:
     print("Wrong Value")
     
