@@ -1,7 +1,7 @@
 # PYTHON FOR EVERYBODY LESSONS
 ## From FreeCodeCamp by Charlse
 
-## Resources
+#Resources
 [🔗 Sample Code Zip:](https://www.py4e.com/code3.zip)
 [🔗 Lecture Slides and Handouts:](https://www.py4e.com/lectures3/)
 [🔗 Free Textbook:](https://www.py4e.com/book.php)
@@ -13,5 +13,3 @@
 
 ### Functions
 - Loops
-
-I AM BACK
