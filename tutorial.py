@@ -8,10 +8,13 @@ for w in words:
 users = {'Hans': 'Active', 'Eleonere': 'inactive', 'jumah': 'active'}
 print("All users are:",users)
 
+#
 for user, status in users.copy().items():
     if status == 'inactive':
         del users[user]
-        
+
+
+#looping over a new collection       
 print ("Active users are:",users)
 active_users = {}
 for user in users.items():
