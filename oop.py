@@ -1,1 +1,2 @@
-print('hello object orinted programming')
+class Item:
+    pass
