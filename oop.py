@@ -21,13 +21,30 @@ class Item:
     def apply_discount(self):
         self.price = self.price * self.pay_rate
 
+
+    @classmethod
+    def instantiate_from_csv(cls):
+        with open('items.csv', 'r') as f:
+            reader = csv.DictReader(f)
+            items = list(reader)
+
+        for item in items:
+            Item(
+                name=item.get('name'),
+                price=float(item.get('price')),
+                quantity=int(item.get('quantity')),
+            )
+
     def __repr__(self):
         return f"Item('{self.name}', {self.price}, {self.quantity})"
 
 item1 = Item("phone", 1000, 7)
-item1.apply_discount()
+
+Item.instantiate_from_csv()
+
+'''item1.apply_discount()
 print(f'price:', item1.price)
 
-print(f'total price', item1.calc_total_price())
+print(f'total price', item1.calc_total_price())'''
 
 print(Item.all)
