@@ -5,7 +5,7 @@ class Item:
         #run validations
         assert price >= 0
         assert quantity >= 0
-        
+
         #asign to object self
         self.name = name
         self.price = price
@@ -21,8 +21,13 @@ class Item:
     def apply_discount(self):
         self.price = self.price * self.pay_rate
 
+    def __repr__(self):
+        return f"Item('{self.name}', {self.price}, {self.quantity})"
+
 item1 = Item("phone", 1000, 7)
 item1.apply_discount()
 print(f'price:', item1.price)
 
 print(f'total price', item1.calc_total_price())
+
+print(Item.all)
