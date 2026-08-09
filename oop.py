@@ -42,9 +42,5 @@ item1 = Item("phone", 1000, 7)
 
 Item.instantiate_from_csv()
 
-'''item1.apply_discount()
-print(f'price:', item1.price)
-
-print(f'total price', item1.calc_total_price())'''
 
 print(Item.all)
