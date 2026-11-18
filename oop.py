@@ -42,6 +42,9 @@ class Item:
         return f"Item('{self.name}', {self.price}, {self.quantity})"
 
 item1 = Item("phone", 1000, 7)
+item2 = Item("laptop", 1000, 3)
+item3 = Item("cable", 10, 5)
+item4 = Item("mouse", 50, 5)
 
 Item.instantiate_from_csv()
 
